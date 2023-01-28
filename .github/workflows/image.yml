@@ -24,13 +24,9 @@ jobs:
         python -m pip install --upgrade pip
         pip install selenium webdriver-manager
         
-    - name: Get script
-      run: |
-        curl https://raw.githubusercontent.com/daankoning/recursive-readme/main/images.py >images.py
-    
     - name: Create image
       run: |
-        python3 images.py
+        curl https://raw.githubusercontent.com/daankoning/recursive-readme/main/images.py | python
         
     - uses: stefanzweifel/git-auto-commit-action@v4
       with:
