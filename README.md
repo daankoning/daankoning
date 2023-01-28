@@ -1,1 +1,1 @@
-<img id="recursiveREADME" src="example.png">
+<img id="recursiveREADME" src="example.png?">
