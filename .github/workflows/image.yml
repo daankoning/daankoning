@@ -17,6 +17,6 @@ jobs:
       with:
         python-version: 3.9
 
-    - uses: daankoning/recursive-readme@v0.0.17
+    - uses: daankoning/recursive-readme@v0.0.18
       with:
         auto-commit: 'true'
